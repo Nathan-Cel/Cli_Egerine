@@ -1,0 +1,15 @@
+# Tests : Ignore le fichier Tests au même niveau que le fichier .gitignore
+# /** : Ne prendra pas en compte les fichiers dans le dossier 
+Tests/**
+
+# Si j'avais mis "**/Tests", là cela aurait ignoré tous les dossiers nommés Tests où qu'ils soient
+
+# Si on veut ignorer des fichiers on peut marquer : 
+
+#Ignore tous les fichiers "exemple.txt"
+exemple.txt 
+#Ignore tous les fichiers "exemple" quelque soit son extension
+exemple.*
+#Ignore le fichier "exemple.txt" au même niveau que le fichier .gitignore
+/exemple.txt
+
