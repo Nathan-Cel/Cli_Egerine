@@ -18,10 +18,10 @@ Une fois ça en poche, l'algorithme fait son boulot, quadrille votre zone de rec
 # Tweaking
 Vous pouvez aussi modifier certains paramètres comme le nombre de points d'intérêts par lesquels passer ou leur distance maxmale par rapport au trajet initiale
 
-<pre><code>```js 
+```javascript
 const maxDistanceFromRoute = 0.3; // Distance maximale (en km) pour laquelle on peut s'éloigner du chemin
-const maxPOIs = 3; // Limite le nombre de POIs ajoutés```
-</code></pre>
+const maxPOIs = 3; // Limite le nombre de POIs ajoutés...
+```
 
 # Remarque
 Ce projet marche mieux pour des petits trajets, plus les trajets demandés seront longs, plus il y aura de chance qu'ils fassent des détours importants quand même. Privilégiez des trajets au niveau d'une commune ou d'un département
