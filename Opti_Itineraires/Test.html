@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/polyline@0.2.0"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="map-info" id="tripTimeDisplay">Temps estimé : -- min</div>
+
+    <div class="sidebar" id="sidebar">
+        <h2>Choisissez votre destination</h2>
+        <form id="destinationForm">
+            <label><input type="radio" name="destination" value="Point 1"> Point 1 <span class="distance">-- km</span></label>
+            <label><input type="radio" name="destination" value="Point 2"> Point 2 <span class="distance">-- km</span></label>
+            <label><input type="radio" name="destination" value="Point 3"> Point 3 <span class="distance">-- km</span></label>
+            <label><input type="radio" name="destination" value="Point 4"> Point 4 <span class="distance">-- km</span></label>
+            <label><input type="radio" name="destination" value="Point 5"> Point 5 <span class="distance">-- km</span></label>
+            <button id="confirmButton" type="button">Confirmer</button>
+        </form>
+    </div>
+    <script src="./Javascript.js"></script>
+</body>
+</html>
