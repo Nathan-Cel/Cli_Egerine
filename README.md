@@ -11,7 +11,7 @@ Comment ce projet marche? Et bien le plus simplement du monde.
 
 Vous avez besoin de:
     -votre propre clé API GraphHopper
-    -vos données géographiques à passer sous le format : {lon : 0, lat : 0, densité : 0}
+    -vos données géographiques à passer sous le format : [[longitude, latitude, densité], ...]
 
 Une fois ça en poche, l'algorithme fait son boulot, quadrille votre zone de recherche et vous ressort des trajets optimisé passant par les points dont la "densité" est la plus intéressante.
 
