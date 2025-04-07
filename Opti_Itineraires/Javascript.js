@@ -68,7 +68,7 @@ function calculateRoute() {
     let destination = points.find(p => p.lon === selectedLon && p.lat === selectedLat);
     if (!destination) return;
 
-    const apiKey = "e3fc25cf-84c1-4044-9861-2aa1edd284a5"; //Clé gratuite donc pas trop grave de la mettre comme ça
+    const apiKey = "Your GraphHopper API key"; //Clé gratuite donc pas trop grave de la mettre comme ça
     //Cependant, très mauvaise pratique, il faut éviter de la "hardcoder" dans le script
     const POIs = findPointsOfInterest(points, { lon: userLon, lat: userLat }, { lon: selectedLon, lat: selectedLat });
 
